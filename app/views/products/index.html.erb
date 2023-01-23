@@ -3,5 +3,5 @@
     <%= product.name %>,
     <%= product.id %>,
     <%= product.stripe_product_id %>
-    <%= button_to 'Purchase', checkout_create_path, params: {id: product.id}, remote: true %>
+    <%= button_to 'Purchase', checkout_create_path, params: {id: product.id}, remote: true, data: { turbo: false } %>
 <% end %>
