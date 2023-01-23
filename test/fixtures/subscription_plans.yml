@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_date: 2023-01-15 20:03:43
+  due_date: 2023-01-15 20:03:43
+  status: MyString
+  period: MyString
+
+two:
+  start_date: 2023-01-15 20:03:43
+  due_date: 2023-01-15 20:03:43
+  status: MyString
+  period: MyString

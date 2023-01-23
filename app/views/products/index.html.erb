@@ -1,0 +1,7 @@
+<h1> Products </h1>
+<% @products.map do |product| %>
+    <%= product.name %>,
+    <%= product.id %>,
+    <%= product.stripe_product_id %>
+    <%= button_to 'Purchase', checkout_create_path, params: {id: product.id}, remote: true %>
+<% end %>
